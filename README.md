@@ -1,4 +1,4 @@
-# Road Signs Knowledge Representation Project - Quick Guide
+# Road Signs Knowledge Representation Project
 
 This repository contains the complete deliverables for the Road Signs Ontology project, integrating the Vienna Convention, the Mapillary dataset (MTSD), and advanced probabilistic reasoning.
 
@@ -40,4 +40,4 @@ To evaluate the logical queries (e.g., retrieving signs by shape, color, or clas
 
 ## Authors
 
-Kacper Kotowski (1750101), Miriam Morales (1706106), Sonia Serra Grivina (1753004)
+Kacper Kotowski, Miriam Morales, Sonia Serra Grivina
