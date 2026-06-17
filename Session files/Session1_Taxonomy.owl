@@ -1,0 +1,1884 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14/"
+     xml:base="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AccessProhibitorySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AccessProhibitorySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AnimalCrossingWarningSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AnimalCrossingWarningSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AnimalHazardSign"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherAnimalHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AnimalHazardSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AnimalHazardSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DangerWarningSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AnimalSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AnimalSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SymbolRoadSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AxleWeightLimitSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AxleWeightLimitSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DimensionMassProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#BicycleSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#BicycleSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#VehicleSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Black -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Black">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Colour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Blue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Blue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Colour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Brown -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Brown">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Colour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#BuiltUpAreaSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#BuiltUpAreaSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ZoneRegulationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CarSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CarSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#VehicleSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ChildrenSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ChildrenSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#HumanSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ChildrenWarningSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ChildrenWarningSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadUserHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Colour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Colour"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CompulsoryBusLaneSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CompulsoryBusLaneSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PathMandatorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CompulsoryCycleTrackSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CompulsoryCycleTrackSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PathMandatorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CompulsoryFootpathSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CompulsoryFootpathSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PathMandatorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CrossingInformationSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CrossingInformationSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InformationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CyclistSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CyclistSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#HumanSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CyclistWarningSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CyclistWarningSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadUserHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DangerWarningSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DangerWarningSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DangerousBendSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DangerousBendSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadGeometryHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DangerousDescentSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DangerousDescentSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadGeometryHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DeadEndSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DeadEndSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TrafficFlowRegulationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DimensionMassProhibitorySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DimensionMassProhibitorySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionInformationSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionInformationSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InformationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionMandatorySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionMandatorySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MandatorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionInformationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SymbolRoadSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DistanceSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DistanceSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionInformationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DomesticAnimalCrossingSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DomesticAnimalCrossingSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AnimalCrossingWarningSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DomesticAnimalSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DomesticAnimalSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AnimalSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DrawbridgeSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DrawbridgeSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InfrastructureHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DrawbridgeSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DrawbridgeSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InfrastructureSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#EndOfMaximumSpeedLimitSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#EndOfMaximumSpeedLimitSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#EndOfMinimumSpeedSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#EndOfMinimumSpeedSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedEquipmentMandatorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#EndOfMotorwaySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#EndOfMotorwaySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MotorwayRegulationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#EndOfNoParkingSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#EndOfNoParkingSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#StoppingParkingProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#EndOfPriorityRoadSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#EndOfPriorityRoadSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RightOfWayPrioritySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#EndOfSpeedLimitZoneSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#EndOfSpeedLimitZoneSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#FallingRocksSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#FallingRocksSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NaturalHazardSign"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherNaturalHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#FirstAidSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#FirstAidSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ServiceInformationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#GeographicalHazardSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#GeographicalHazardSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DangerWarningSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#GiveWaySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#GiveWaySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#YieldPrioritySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#GiveWayToOncomingTrafficSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#GiveWayToOncomingTrafficSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#YieldPrioritySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#GoStraightSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#GoStraightSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionMandatorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Green -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Green">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Colour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Grey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Grey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Colour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#HeightLimitSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#HeightLimitSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DimensionMassProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#HospitalSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#HospitalSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ServiceInformationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#HumanSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#HumanSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SymbolRoadSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InformationSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InformationSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InfrastructureHazardSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InfrastructureHazardSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DangerWarningSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InfrastructureSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InfrastructureSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SymbolRoadSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#IntersectionWarningSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#IntersectionWarningSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InfrastructureHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#KeepLeftSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#KeepLeftSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionMandatorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#KeepRightSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#KeepRightSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionMandatorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#LeftArrowSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#LeftArrowSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#LeftBendSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#LeftBendSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DangerousBendSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#LevelCrossingSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#LevelCrossingSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InfrastructureSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#LevelCrossingWarningSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#LevelCrossingWarningSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InfrastructureHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#LooseChippingsSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#LooseChippingsSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadSurfaceHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MandatorySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MandatorySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MaximumSpeedLimitSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MaximumSpeedLimitSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MinimumSpeedSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MinimumSpeedSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedEquipmentMandatorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MotorwayRegulationSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MotorwayRegulationSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpecialRegulationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MotorwaySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MotorwaySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MotorwayRegulationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MovementProhibitorySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MovementProhibitorySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NarrowRoadSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NarrowRoadSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadGeometryHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NaturalHazardSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NaturalHazardSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#GeographicalHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoBicyclesSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoBicyclesSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AccessProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoEntrySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoEntrySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AccessProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoHazardousGoodsSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoHazardousGoodsSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AccessProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoLeftTurnSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoLeftTurnSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MovementProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoMotorVehiclesSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoMotorVehiclesSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AccessProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoOvertakingForTrucksSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoOvertakingForTrucksSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoOvertakingSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoOvertakingSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoOvertakingSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MovementProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoParkingSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoParkingSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#StoppingParkingProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoPedestriansSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoPedestriansSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AccessProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoRightTurnSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoRightTurnSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MovementProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoStoppingSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoStoppingSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#StoppingParkingProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoTrucksSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoTrucksSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AccessProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoUTurnSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoUTurnSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MovementProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NumericSpeedSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NumericSpeedSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedSymbol"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherSpeedSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OneWaySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OneWaySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TrafficFlowRegulationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Orange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Orange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Colour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherAccessProhibitorySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherAccessProhibitorySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AccessProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherAnimalCrossingWarningSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherAnimalCrossingWarningSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AnimalCrossingWarningSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherAnimalHazardSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherAnimalHazardSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AnimalHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherAnimalSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherAnimalSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AnimalSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherColour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherColour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Colour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherCrossingInformationSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherCrossingInformationSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CrossingInformationSign"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PedestrianCrossingInformationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherDangerWarningSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherDangerWarningSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DangerWarningSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherDangerousBendSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherDangerousBendSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DangerousBendSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherDimensionMassProhibitorySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherDimensionMassProhibitorySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DimensionMassProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherDirectionInformationSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherDirectionInformationSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionInformationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherDirectionMandatorySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherDirectionMandatorySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionMandatorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherDirectionSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherDirectionSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherGeographicalHazardSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherGeographicalHazardSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#GeographicalHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherHumanSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherHumanSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#HumanSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherInformationSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherInformationSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InformationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherInfrastructureHazardSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherInfrastructureHazardSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InfrastructureHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherInfrastructureSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherInfrastructureSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InfrastructureSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherMandatorySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherMandatorySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MandatorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherMotorwayRegulationSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherMotorwayRegulationSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MotorwayRegulationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherMovementProhibitorySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherMovementProhibitorySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MovementProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherNaturalHazardSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherNaturalHazardSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NaturalHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherParkingRegulationSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherParkingRegulationSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ParkingRegulationSign"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ParkingSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherPathMandatorySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherPathMandatorySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PathMandatorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherPrioritySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherPrioritySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PrioritySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherProhibitorySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherProhibitorySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherRightOfWayPrioritySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherRightOfWayPrioritySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RightOfWayPrioritySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherRoadGeometryHazardSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherRoadGeometryHazardSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadGeometryHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherRoadHazardSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherRoadHazardSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherRoadSurfaceHazardSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherRoadSurfaceHazardSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadSurfaceHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherRoadUserHazardSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherRoadUserHazardSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadUserHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherServiceInformationSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherServiceInformationSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ServiceInformationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherSpecialRegulationSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherSpecialRegulationSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpecialRegulationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherSpeedEquipmentMandatorySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherSpeedEquipmentMandatorySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedEquipmentMandatorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherSpeedProhibitorySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherSpeedProhibitorySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherSpeedSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherSpeedSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherStopPrioritySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherStopPrioritySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#StopPrioritySign"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#StopSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherStoppingParkingProhibitorySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherStoppingParkingProhibitorySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#StoppingParkingProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherSymbolRoadSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherSymbolRoadSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SymbolRoadSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherTextSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherTextSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TextSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherTrafficFlowRegulationSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherTrafficFlowRegulationSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TrafficFlowRegulationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherVehicleSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherVehicleSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#VehicleSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherYieldPrioritySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherYieldPrioritySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#YieldPrioritySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherZoneRegulationSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherZoneRegulationSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ZoneRegulationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ParkingRegulationSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ParkingRegulationSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpecialRegulationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ParkingSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ParkingSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ParkingRegulationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ParkingTextSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ParkingTextSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TextSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PathMandatorySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PathMandatorySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MandatorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PedestrianCrossingInformationSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PedestrianCrossingInformationSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CrossingInformationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PedestrianCrossingWarningSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PedestrianCrossingWarningSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadUserHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PedestrianSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PedestrianSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#HumanSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PedestrianZoneSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PedestrianZoneSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ZoneRegulationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PriorityOverOncomingTrafficSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PriorityOverOncomingTrafficSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RightOfWayPrioritySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PriorityRoadSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PriorityRoadSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RightOfWayPrioritySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PrioritySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PrioritySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ProhibitorySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ProhibitorySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Red -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Red">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Colour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RightArrowSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RightArrowSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RightBendSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RightBendSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DangerousBendSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RightOfWayPrioritySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RightOfWayPrioritySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PrioritySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadGeometryHazardSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadGeometryHazardSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#GeographicalHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadHazardSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadHazardSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DangerWarningSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadSign"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadSurfaceHazardSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadSurfaceHazardSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadUserHazardSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadUserHazardSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadworkSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadworkSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadSurfaceHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoundaboutSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoundaboutSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionMandatorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoundaboutSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoundaboutSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ServiceInformationSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ServiceInformationSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InformationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SharedPathSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SharedPathSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PathMandatorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SlipperyRoadSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SlipperyRoadSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadSurfaceHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SnowChainsSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SnowChainsSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedEquipmentMandatorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpecialRegulationSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpecialRegulationSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedEquipmentMandatorySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedEquipmentMandatorySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MandatorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedLimitZoneSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedLimitZoneSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedProhibitorySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedProhibitorySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SymbolRoadSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SteepAscentSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SteepAscentSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadGeometryHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#StopPrioritySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#StopPrioritySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PrioritySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#StopSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#StopSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#StopPrioritySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#StopTextSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#StopTextSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TextSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#StoppingParkingProhibitorySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#StoppingParkingProhibitorySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#StraightArrowSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#StraightArrowSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SymbolRoadSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SymbolRoadSign"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TextSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TextSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SymbolRoadSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TrafficFlowRegulationSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TrafficFlowRegulationSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpecialRegulationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TrafficSignalSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TrafficSignalSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InfrastructureSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TrafficSignalsWarningSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TrafficSignalsWarningSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InfrastructureHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TruckSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TruckSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#VehicleSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TurnLeftSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TurnLeftSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionMandatorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TurnRightSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TurnRightSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionMandatorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#VehicleSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#VehicleSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SymbolRoadSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#WeightLimitSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#WeightLimitSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DimensionMassProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#White -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#White">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Colour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#WidthLimitSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#WidthLimitSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DimensionMassProhibitorySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#WildAnimalCrossingSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#WildAnimalCrossingSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AnimalCrossingWarningSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#WildAnimalSymbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#WildAnimalSymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AnimalSymbol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Yellow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Yellow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Colour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#YieldPrioritySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#YieldPrioritySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PrioritySign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ZoneRegulationSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ZoneRegulationSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpecialRegulationSign"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AccessProhibitorySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DimensionMassProhibitorySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MovementProhibitorySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherProhibitorySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedProhibitorySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#StoppingParkingProhibitorySign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AnimalHazardSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#GeographicalHazardSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InfrastructureHazardSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherDangerWarningSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadHazardSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AnimalSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#HumanSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InfrastructureSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherSymbolRoadSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TextSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#VehicleSymbol"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#AxleWeightLimitSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#HeightLimitSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherDimensionMassProhibitorySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#WeightLimitSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#WidthLimitSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#BicycleSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CarSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherVehicleSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TruckSymbol"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Black"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Blue"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Brown"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Green"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Grey"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Orange"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherColour"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Red"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#White"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Yellow"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#BuiltUpAreaSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherZoneRegulationSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PedestrianZoneSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ChildrenSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CyclistSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherHumanSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PedestrianSymbol"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ChildrenWarningSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CyclistWarningSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherRoadUserHazardSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PedestrianCrossingWarningSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#Colour"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SymbolRoadSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CompulsoryBusLaneSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CompulsoryCycleTrackSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CompulsoryFootpathSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherPathMandatorySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SharedPathSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#CrossingInformationSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionInformationSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherInformationSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ServiceInformationSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DangerWarningSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#InformationSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MandatorySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PrioritySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ProhibitorySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpecialRegulationSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DangerousBendSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DangerousDescentSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NarrowRoadSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherRoadGeometryHazardSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SteepAscentSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DeadEndSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OneWaySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherTrafficFlowRegulationSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionMandatorySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherMandatorySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PathMandatorySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedEquipmentMandatorySign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DirectionSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DistanceSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherDirectionInformationSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DomesticAnimalCrossingSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherAnimalCrossingWarningSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#WildAnimalCrossingSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DomesticAnimalSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherAnimalSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#WildAnimalSymbol"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DrawbridgeSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#IntersectionWarningSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#LevelCrossingWarningSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherInfrastructureHazardSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TrafficSignalsWarningSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#DrawbridgeSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#LevelCrossingSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherInfrastructureSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TrafficSignalSymbol"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#EndOfMaximumSpeedLimitSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#EndOfSpeedLimitZoneSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MaximumSpeedLimitSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherSpeedProhibitorySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SpeedLimitZoneSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#EndOfMinimumSpeedSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MinimumSpeedSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherSpeedEquipmentMandatorySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SnowChainsSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#EndOfMotorwaySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MotorwaySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherMotorwayRegulationSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#EndOfNoParkingSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoParkingSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoStoppingSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherStoppingParkingProhibitorySign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#EndOfPriorityRoadSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherRightOfWayPrioritySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PriorityOverOncomingTrafficSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#PriorityRoadSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#FirstAidSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#HospitalSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherServiceInformationSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#GiveWaySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#GiveWayToOncomingTrafficSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherYieldPrioritySign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#GoStraightSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#KeepLeftSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#KeepRightSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherDirectionMandatorySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoundaboutSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TurnLeftSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TurnRightSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#LeftArrowSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherDirectionSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RightArrowSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoundaboutSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#StraightArrowSymbol"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#LeftBendSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherDangerousBendSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RightBendSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#LooseChippingsSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherRoadSurfaceHazardSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadworkSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#SlipperyRoadSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#MotorwayRegulationSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherSpecialRegulationSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ParkingRegulationSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#TrafficFlowRegulationSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ZoneRegulationSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NaturalHazardSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherGeographicalHazardSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadGeometryHazardSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoBicyclesSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoEntrySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoHazardousGoodsSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoMotorVehiclesSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoPedestriansSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoTrucksSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherAccessProhibitorySign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoLeftTurnSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoOvertakingSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoRightTurnSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#NoUTurnSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherMovementProhibitorySign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherPrioritySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RightOfWayPrioritySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#StopPrioritySign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#YieldPrioritySign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherRoadHazardSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadSurfaceHazardSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#RoadUserHazardSign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#OtherTextSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#ParkingTextSymbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2026/2/untitled-ontology-14#StopTextSymbol"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,458 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46/"
+     xml:base="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#hasBackgroundColour -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#hasBackgroundColour">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Colour"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#hasShape -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#hasShape">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Shape"/>
+        <rdfs:comment xml:lang="en">Associates a road sign with its geometric shape. Functional: each sign has exactly one shape.</rdfs:comment>
+        <rdfs:label xml:lang="en">Has shape</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#hasSymbol -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#hasSymbol">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#DangerWarningSign"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/roadsigns-assignment#AnimalHazardSign -->
+
+    <owl:Class rdf:about="http://example.org/roadsigns-assignment#AnimalHazardSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#DangerWarningSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/roadsigns-assignment#DomesticAnimalCrossingSign -->
+
+    <owl:Class rdf:about="http://example.org/roadsigns-assignment#DomesticAnimalCrossingSign">
+        <rdfs:subClassOf rdf:resource="http://example.org/roadsigns-assignment#AnimalHazardSign"/>
+        <rdfs:comment xml:lang="en">A danger warning sign indicating a section of the road where livestock or farm animals are likely to be encountered. This sign warns of animals such as cattle, sheep, or goats that may be crossing the road under the supervision of a herder or having escaped from nearby grazing land.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/roadsigns-assignment#EnvironmentContext -->
+
+    <owl:Class rdf:about="http://example.org/roadsigns-assignment#EnvironmentContext"/>
+    
+
+
+    <!-- http://example.org/roadsigns-assignment#EquestriansCrossingSign -->
+
+    <owl:Class rdf:about="http://example.org/roadsigns-assignment#EquestriansCrossingSign">
+        <rdfs:subClassOf rdf:resource="http://example.org/roadsigns-assignment#AnimalHazardSign"/>
+        <rdfs:comment xml:lang="en">A danger warning sign indicating a section of the road frequently used by horse riders (equestrians). It warns motorists of the potential presence of horses with riders crossing or moving along the carriageway, requiring reduced speed and caution to avoid startling the animals.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/roadsigns-assignment#GeographicContext -->
+
+    <owl:Class rdf:about="http://example.org/roadsigns-assignment#GeographicContext"/>
+    
+
+
+    <!-- http://example.org/roadsigns-assignment#OtherHazardCrossings -->
+
+    <owl:Class rdf:about="http://example.org/roadsigns-assignment#OtherHazardCrossings">
+        <rdfs:subClassOf rdf:resource="http://example.org/roadsigns-assignment#AnimalHazardSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/roadsigns-assignment#TrailCrossingSign -->
+
+    <owl:Class rdf:about="http://example.org/roadsigns-assignment#TrailCrossingSign">
+        <rdfs:subClassOf rdf:resource="http://example.org/roadsigns-assignment#AnimalHazardSign"/>
+        <rdfs:comment xml:lang="en">A danger warning sign indicating a point where a recreational or pack-animal trail intersects with a public road. This includes crossings for hikers, mountain bikers, or led animals (such as pack mules). It indicates a higher probability of non-motorized traffic emerging from non-visible paths.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/roadsigns-assignment#WildAnimalCrossingSign -->
+
+    <owl:Class rdf:about="http://example.org/roadsigns-assignment#WildAnimalCrossingSign">
+        <rdfs:subClassOf rdf:resource="http://example.org/roadsigns-assignment#AnimalHazardSign"/>
+        <rdfs:comment xml:lang="en">A danger warning sign alerting drivers to a stretch of road passing through areas with high populations of free-roaming wildlife. It indicates a risk of large wild animals (such as deer, moose, or elk) suddenly entering the roadway, especially during dawn, dusk, or mating seasons</rdfs:comment>
+        <rdfs:label xml:lang="en">WildAnimalCrossingSign ⊑ AnimalCollisionRisk : 0.90</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#AnimalCollisionRisk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#AnimalCollisionRisk"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#AustralianContext -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#AustralianContext">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/roadsigns-assignment#GeographicContext"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#hasSymbol"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Kangaroo"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/roadsigns-assignment#GeographicContext"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Colour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Colour"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#DangerWarningSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#DangerWarningSign"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#EuropeanContext -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#EuropeanContext">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/roadsigns-assignment#GeographicContext"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#hasSymbol"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Deer"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/roadsigns-assignment#GeographicContext"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#ForestArea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#ForestArea">
+        <rdfs:subClassOf rdf:resource="http://example.org/roadsigns-assignment#EnvironmentContext"/>
+        <rdfs:comment xml:lang="en">ForestArea ⊑ WildAnimalCrossingSign : 0.80</rdfs:comment>
+        <rdfs:label xml:lang="en">Environmental context prior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#PastureLand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#PastureLand">
+        <rdfs:subClassOf rdf:resource="http://example.org/roadsigns-assignment#EnvironmentContext"/>
+        <rdfs:comment xml:lang="en">PastureLand ⊑ DomesticAnimalCrossingSign : 0.70</rdfs:comment>
+        <rdfs:label xml:lang="en">Environmental context prior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Shape -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Shape"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#USContext -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#USContext">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/roadsigns-assignment#GeographicContext"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#hasBackgroundColour"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Yellow"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#hasSymbol"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Deer"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/roadsigns-assignment#GeographicContext"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Bear -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Bear">
+        <rdf:type rdf:resource="http://example.org/roadsigns-assignment#WildAnimalCrossingSign"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Bull -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Bull">
+        <rdf:type rdf:resource="http://example.org/roadsigns-assignment#DomesticAnimalCrossingSign"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Cow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Cow">
+        <rdf:type rdf:resource="http://example.org/roadsigns-assignment#DomesticAnimalCrossingSign"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Deer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Deer">
+        <rdf:type rdf:resource="http://example.org/roadsigns-assignment#WildAnimalCrossingSign"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Diamond -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Diamond">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Shape"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Elk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Elk">
+        <rdf:type rdf:resource="http://example.org/roadsigns-assignment#WildAnimalCrossingSign"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Goat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Goat">
+        <rdf:type rdf:resource="http://example.org/roadsigns-assignment#DomesticAnimalCrossingSign"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Hiker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Hiker">
+        <rdf:type rdf:resource="http://example.org/roadsigns-assignment#TrailCrossingSign"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Horse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Horse">
+        <rdf:type rdf:resource="http://example.org/roadsigns-assignment#EquestriansCrossingSign"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Kangaroo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Kangaroo">
+        <rdf:type rdf:resource="http://example.org/roadsigns-assignment#WildAnimalCrossingSign"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Moose -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Moose">
+        <rdf:type rdf:resource="http://example.org/roadsigns-assignment#WildAnimalCrossingSign"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Mule -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Mule">
+        <rdf:type rdf:resource="http://example.org/roadsigns-assignment#TrailCrossingSign"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Red -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Red">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Colour"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Rider -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Rider">
+        <rdf:type rdf:resource="http://example.org/roadsigns-assignment#EquestriansCrossingSign"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Sheep -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Sheep">
+        <rdf:type rdf:resource="http://example.org/roadsigns-assignment#DomesticAnimalCrossingSign"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Triangle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Triangle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Shape"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Wombat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Wombat">
+        <rdf:type rdf:resource="http://example.org/roadsigns-assignment#WildAnimalCrossingSign"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Yellow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Yellow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Colour"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://example.org/roadsigns-assignment#AnimalHazardSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#ForestArea"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://example.org/roadsigns-assignment#WildAnimalCrossingSign"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://example.org/roadsigns-assignment#AnimalHazardSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#PastureLand"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://example.org/roadsigns-assignment#DomesticAnimalCrossingSign"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://example.org/roadsigns-assignment#WildAnimalCrossingSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#AustralianContext"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#hasSymbol"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Kangaroo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://example.org/roadsigns-assignment#WildAnimalCrossingSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#EuropeanContext"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#hasSymbol"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Deer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://example.org/roadsigns-assignment#WildAnimalCrossingSign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#USContext"/>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#hasBackgroundColour"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Yellow"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#hasShape"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/sonia/ontologies/2026/4/untitled-ontology-46#Diamond"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

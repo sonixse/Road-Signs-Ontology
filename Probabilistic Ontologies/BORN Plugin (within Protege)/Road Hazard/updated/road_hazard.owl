@@ -1,0 +1,107 @@
+Prefix(ont:=<http://example.org/born/road-hazard#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+Ontology(<http://example.org/born/road-hazard>
+
+Declaration(AnnotationProperty(ont:prob))
+
+Declaration(Class(ont:EnvironmentContext))
+Declaration(Class(ont:HazardousCondition))
+Declaration(Class(ont:Ice))
+Declaration(Class(ont:Snow))
+Declaration(Class(ont:IcyRoadCase))
+Declaration(Class(ont:SnowyRoadCase))
+Declaration(Class(ont:SlipperyRoadCase))
+Declaration(Class(ont:MountainousRoadCase))
+Declaration(Class(ont:HighAccidentAreaCase))
+Declaration(Class(ont:SlipperyRoadSign))
+Declaration(Class(ont:EuropeanContext))
+Declaration(Class(ont:USContext))
+
+Declaration(ObjectProperty(ont:hasShape))
+Declaration(ObjectProperty(ont:hasCondition))
+Declaration(NamedIndividual(ont:Triangle))
+Declaration(NamedIndividual(ont:Diamond))
+
+SubClassOf(Annotation(ont:prob "x0"^^xsd:string)
+  ont:EnvironmentContext
+  ont:HazardousCondition
+)
+
+SubClassOf(Annotation(ont:prob "x0"^^xsd:string)
+  ont:HazardousCondition
+  ObjectSomeValuesFrom(ont:hasCondition ont:Ice)
+)
+
+SubClassOf(Annotation(ont:prob "x0"^^xsd:string)
+  ont:HazardousCondition
+  ObjectSomeValuesFrom(ont:hasCondition ont:Snow)
+)
+
+SubClassOf(Annotation(ont:prob "x1"^^xsd:string)
+  ObjectSomeValuesFrom(ont:hasCondition ont:Snow)
+  ont:SnowyRoadSign
+)
+
+SubClassOf(Annotation(ont:prob "x2"^^xsd:string)
+  ObjectSomeValuesFrom(ont:hasCondition ont:Ice)
+  ont:IcyRoadCase
+)
+
+SubClassOf(Annotation(ont:prob "x3"^^xsd:string)
+  ObjectIntersectionOf(ont:IcyRoadCase ont:SnowyRoadCase)
+  ont:SlipperyRoadCase
+)
+
+SubClassOf(
+  ont:SlipperyRoadCase
+  ont:SlipperyRoadSign
+)
+
+SubClassOf(
+  Annotation(ont:prob "european_union"^^xsd:string)
+  ont:SlipperyRoadCase 
+  ont:EuropeanContext
+)
+
+SubClassOf(
+  Annotation(ont:prob "\\+european_union"^^xsd:string)
+  ont:SlipperyRoadCase 
+  ont:USContext
+)
+
+SubClassOf(Annotation(ont:prob "x4"^^xsd:string)
+  ont:EnvironmentContext
+  ont:MountainousRoadCase
+)
+
+SubClassOf(Annotation(ont:prob "x5"^^xsd:string)
+  ObjectIntersectionOf(ont:SlipperyRoadSign ont:MountainousRoadCase)
+  ont:HighAccidentAreaCase
+)
+
+SubClassOf(
+  Annotation(ont:prob "x5"^^xsd:string)
+  ont:HighAccidentAreaCase 
+  ont:EnvironmentContext
+)
+
+SubClassOf(
+  Annotation(ont:prob "european_union"^^xsd:string)
+  ObjectIntersectionOf(ont:SlipperyRoadSign ont:EuropeanContext)
+  ObjectSomeValuesFrom(ont:hasShape ont:Triangle)
+)
+
+SubClassOf(
+  Annotation(ont:prob "\\+european_union"^^xsd:string)
+  ObjectIntersectionOf(ont:SlipperyRoadSign ont:USContext)
+  ObjectSomeValuesFrom(ont:hasShape ont:Diamond)
+)
+
+SubClassOf(ont:EuropeanContext ont:EnvironmentContext)
+SubClassOf(ont:USContext ont:EnvironmentContext)
+SubClassOf(ont:SlipperyRoadSign ont:HazardousCondition)
+)
